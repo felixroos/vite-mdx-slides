@@ -1,0 +1,19 @@
+import Button from "../components/Button";
+
+# You did it!
+
+You've found the next Slide!
+
+To add a new slide, add `myslide.mdx` to `src/slides` and then add `myslide` to `order` in `config.js`.
+Your typography will be formatted by [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin).
+
+Because this is MDX, you can also add react components, like this Button:
+
+<Button
+  onClick={() => {
+    console.log("clickck");
+    alert("you clicked me!!!");
+  }}
+>
+  Click me
+</Button>
